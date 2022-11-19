@@ -9,10 +9,8 @@
         <target>lightningCommunity__Default</target>
     </targets>
 
-    <targetConfigs>
+     <!-- <targetConfigs>
         <targetConfig targets="lightningCommunity__Default">
-            <property name="Title" type="String" default="Info Registration"/>
-            <property name="Footer" type="String"  default=" "/>
             <property name="utm_campaign" type="String" default=" " />
             <property name="utm_content" type="String" default=" " />
             <property name="utm_medium" type="String" default=" " />
@@ -21,5 +19,8 @@
             <property name="utm_term" type="String" default=" " />
             <property name="utm_id" type="String" default=" " />
         </targetConfig>
-    </targetConfigs>
+    </targetConfigs> -->
+
+   
+
 </LightningComponentBundle>

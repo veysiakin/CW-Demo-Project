@@ -1,4 +1,3 @@
-<!-- sldsValidatorIgnore -->
 <template>
     <template if:false={isRegistered}>
         <lightning-card variant="Narrow" title={Title} icon-name="standard:account">
@@ -22,8 +21,8 @@
     </template>
 
     <template if:true={isRegistered}>
-        <lightning-card variant="Narrow"  title="Registration Competed" icon-name="standard:account">
-            <p class="slds-p-horizontal_small">Your Registration is Competed. One of our specialist contact with you as soon as possible. </p>
+        <lightning-card variant="Narrow"  title="Registration Completed" icon-name="standard:account">
+            <p class="slds-p-horizontal_small">Your Registration is Completed. One of our specialist contact with you as soon as possible. </p>
             <p slot="footer">Success</p>
         </lightning-card>
     </template>
